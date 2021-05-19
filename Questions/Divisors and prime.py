@@ -1,6 +1,6 @@
 # 1.Question divisors
 from math import *
-
+#
 
 def divisors_1(num):
     return [i for i in range(1, num+1) if num % i == 0]
